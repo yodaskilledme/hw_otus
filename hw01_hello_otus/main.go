@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
+	//nolint:forbidigo
 	fmt.Print(stringutil.Reverse("Hello, OTUS!"))
 }
